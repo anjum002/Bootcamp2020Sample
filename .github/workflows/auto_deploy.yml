@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
    - name: Deploying using surge
-     run: surge ./ adorable-tomatoes.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+     run: surge C:\Users\Anjum\Downloads\GitHub\Bootcamp2020Sample adorable-tomatoes.surge.sh --token ${{ secrets.SURGE_TOKEN }}
